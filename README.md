@@ -46,3 +46,29 @@ git remote add origin https://github.com/aymane1234/simple-dvc-demo.git
 git branch -M main
 git push origin main
 ```
+tox command -
+```bash
+tox
+```
+
+for rebuilduing
+```bash
+tox -r
+```
+
+pytest command
+```bash
+pytest -v
+```
+
+setup commands 
+```bash
+pip install -e .
+```
+for local package install " pip install -e ."
+
+
+build your own package commands -
+```bash
+python setup.py sdist bdist wheel
+```
