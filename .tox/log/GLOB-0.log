@@ -1,6 +1,6 @@
 action: GLOB, msg: packaging
 cwd: /home/aymane/PycharmProjects/wine_quality_project
-cmd: /home/aymane/anaconda3/envs/wafer_project/bin/python setup.py sdist --formats=zip --dist-dir /home/aymane/PycharmProjects/wine_quality_project/.tox/dist
+cmd: /home/aymane/anaconda3/envs/wafer_project/bin/python setup.py sdist --formats=zip --dist-dir .tox/dist
 /home/aymane/anaconda3/envs/wafer_project/lib/python3.9/distutils/dist.py:259: UserWarning: 'licence' distribution option is deprecated; use 'license'
   warnings.warn(msg)
 /home/aymane/anaconda3/envs/wafer_project/lib/python3.9/distutils/dist.py:274: UserWarning: Unknown distribution option: 'package'
@@ -29,8 +29,7 @@ copying src.egg-info/dependency_links.txt -> src-0.0.1/src.egg-info
 copying src.egg-info/top_level.txt -> src-0.0.1/src.egg-info
 copying test/test_config.py -> src-0.0.1/test
 Writing src-0.0.1/setup.cfg
-creating /home/aymane/PycharmProjects/wine_quality_project/.tox/dist
-creating '/home/aymane/PycharmProjects/wine_quality_project/.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
+creating '.tox/dist/src-0.0.1.zip' and adding 'src-0.0.1' to it
 adding 'src-0.0.1'
 adding 'src-0.0.1/test'
 adding 'src-0.0.1/src.egg-info'
